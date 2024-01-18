@@ -2,32 +2,32 @@
     {
     "audio": "/assets/music/Red_Hot_Chili_Peppers_-_Californication.mp3",
     "cover": "/assets/music/Red_Hot_Chili_Peppers_-_Californication.jpg",
-    "author":"/Red_Hot_Chili_Peppers_",
+    "author":"Red_Hot_Chili_Peppers_",
     "title": "Californication",
     "id": "track_1"
 },
 {
     "audio": "/assets/music/losingmyreligion.mp3",
     "cover": "/assets/music/losingmyreligion.jpg",
-    "author":"/REM",
+    "author":"REM",
     "title": "LosingMyReligion",
     "id": "track_2"
 },{
     "audio": "/assets/music/LoseYourself.mp3",
     "cover": "/assets/music/LoseYourself.jpg",
-    "author":"/Eminem",
+    "author":"Eminem",
     "title": "LoseYourself",
     "id": "track_3"
 },{
     "audio": "/assets/music/hans-zimmer-no-time-for-caution-(interstellar-soundtrack)(docki-made-with-Voicemod-technology.mp3",
     "cover": "/assets/music/hans-zimmer-no-time-for-caution-(interstellar-soundtrack)(docki-made-with-Voicemod-technology.jpg",
-    "author":"/HansZimmer",
+    "author":"HansZimmer",
     "title": "NoTimeForCaution(Interstellar Soundtrack)",
     "id": "track_4"
 },{
     "audio": "/assets/music/deep-space-relaxing-meditation-background-music-149049.mp3",
     "cover": "/assets/music/deep-space-relaxing-meditation-background-music-149049.jpg",
-    "author":"/BlueWaveStudio",
+    "author":"BlueWaveStudio",
     "title": "DeepSpaceRelaxingMusic",
     "id": "track_5"
 }

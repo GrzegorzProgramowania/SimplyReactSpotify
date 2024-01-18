@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-const API = '/assets/api.json'
+const API = '/assets/music/api.json'
 
 function App() {
   const [songs, setSongs] = useState([]);
@@ -13,7 +13,7 @@ function App() {
 
   },[]);
 
-  if (song.length < 1) {
+  if (songs.length < 1) {
     return (<div>Loader</div>)
   }
 
