@@ -27,7 +27,7 @@ function App() {
   }
 
   return (
-  <div className='min-h-screen by-blue-900 text-white justify-center items-center flex-col m-auto'>
+  <div className='min-h-screen bg-blue-900 text-white justify-center items-center flex-col m-auto'>
    <section>
     <h1>SimplySpotify</h1>
      <img src={songs[selectedSong].cover}/>
