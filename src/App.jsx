@@ -15,23 +15,30 @@ function App() {
 
   },[]);
 
+  useEffect(() =>{
+    if(audioRef.current){
+      audioRef.current.src = songs[selectedSong].audio;
+      audioRef.current.load();
+    }
+  }, [selectedSong, songs])
+
   if (songs.length < 1) {
     return (<div>Loader</div>)
   }
 
   return (
-<div>
-  <section>
+  <div>
+   <section>
     <h1>SimplySpotify</h1>
-  </section>
-  <section>  
-    <h1>Songs:</h1>
-    <img src={songs[selectedSong].cover}/>
-    <button onClick={() => audioRef.current.play}>Play</button>
-    <button onClick={() => audioRef.current.pause}>Pause</button>
+     <img src={songs[selectedSong].cover}/>
+    <button onClick={() => audioRef.current.play()}>Play</button>
+    <button onClick={() => audioRef.current.pause()}>Pause</button>
     <audio ref={audioRef}>
       <source src={songs[selectedSong].audio} />
     </audio>
+    </section>
+    <section>
+      <h1>Songs:</h1>
     <ul>
       {songs.map((song, index)=> (<li key={song.id} onClick={()=> setSelectedSong(index)}>
         {song.title} by {song.author}
