@@ -23,11 +23,11 @@ function App() {
   }, [selectedSong, songs])
 
   if (songs.length < 1) {
-    return (<div>Loader</div>)
+    return (<div className="text-3xl font-bold text-black flex items-center justify-center h-screen text-center">Loader</div>)
   }
 
   return (
-  <div className='bg-blue-950 min-h-screen bg-gray-100 text-gray-900 justify-center items-center flex-col m-auto'>
+  <div className=' min-h-screen text-gray-900 justify-center items-center flex-col m-auto bg-gray-800'>
    <section className="bg-black p-8 text-center flex flex-col items-center">
   <h1 className="text-3xl font-bold text-white mb-4">SimplySpotify</h1>
   <img className="mx-auto mt-4 mb-6 w-64 h-64 object-contain object-cover shadow-lg rounded-full" src={songs[selectedSong].cover}/>
